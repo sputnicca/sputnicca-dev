@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "gatsby-plugin-google-analytics": "^4.11.0",
     "gh-pages": "^3.2.3"
   }
 }

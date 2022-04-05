@@ -12,6 +12,14 @@ module.exports = {
   pathPrefix: "/sputnicca-dev",
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-PQS464QGQC",
+        head: false,
+        enableWebVitalsTracking: true
+      }
+    },
+    {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
