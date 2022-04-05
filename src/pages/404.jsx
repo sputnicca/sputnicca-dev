@@ -1,10 +1,10 @@
 import * as React from "react"
-// import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout"
 import { css } from '@emotion/react'
 
 const bgcolor = "#f2ffd9";
 const Layout = css`
   background-color: ${bgcolor};
+  text-align: center;
 `
 
 const NotFound = () => (
