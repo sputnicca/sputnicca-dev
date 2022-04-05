@@ -4,9 +4,10 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    title: `sputnicca-dev`,
+    siteTitle: `sputnicca-dev`,
     author: `@sputnicca`,
     siteUrl: `https://sputnicca.github.io/sputnicca-dev`,
+    siteDescription: `開発ブログ`,
   },
   pathPrefix: "/sputnicca-dev",
   plugins: [
@@ -124,7 +125,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Sputnicca Dev`,
+            title: `sputnicca-dev`,
           },
         ],
       },
