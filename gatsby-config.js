@@ -12,6 +12,15 @@ module.exports = {
   pathPrefix: "/sputnicca-dev",
   plugins: [
     {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        sourceMap: true,
+        autoLabel: "dev-only",
+        labelFormat: `[local]`,
+        cssPropOptimization: true,
+      },
+    },    
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "G-PQS464QGQC",
