@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkminimal_blog=self.webpackChunkminimal_blog||[]).push([[256],{37291:function(n,t,l){l.r(t);l(67294);var e=l(23431),o=(0,e.iv)("background-color:","#f2ffd9",";text-align:center;","");t.default=function(){return(0,e.tZ)("div",{css:o},(0,e.tZ)("h1",null,"404 - Page Not Found"),(0,e.tZ)("p",null,"Unfortunately we couldn't find what you were looking for :("))}}}]);
+//# sourceMappingURL=component---src-pages-404-jsx-addb31d9d55306c7d456.js.map
